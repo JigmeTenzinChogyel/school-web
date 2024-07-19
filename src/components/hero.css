@@ -1,0 +1,36 @@
+.hero {
+  background-image:
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('src/assets/school.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  height: 100vh;
+}
+
+.heroTitle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Optional: Center align text content */
+}
+.heroTitle h1{
+  font-size: 5em;
+  word-spacing: 1rem;
+  color: white;
+}
+
+.heroDesc {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Optional: Center align text content */
+}
+
+.heroDesc h3, p {
+  font-size: 1rem;
+  color: white;
+}

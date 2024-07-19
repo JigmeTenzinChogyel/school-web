@@ -1,0 +1,55 @@
+.teachers {
+    padding: 8em 6em;
+    background-color: rgba(215, 215, 215, 0.463);
+}
+.teachers h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.teachers h4 {
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.items {
+    margin: 0;
+    padding: 0;
+}
+
+.teacherList {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 5em;
+    margin-top: 2rem;
+}
+
+.teacherList h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.7rem;
+}
+
+.teacherList h3 {
+    font-size: 1.3em;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.teacherList h5 {
+    font-size: 1.3em;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.teacherList img {
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.special {
+    text-align: end;
+}

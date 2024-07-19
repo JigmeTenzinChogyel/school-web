@@ -1,0 +1,112 @@
+.stats {
+  background-image:
+  linear-gradient(to bottom, rgba(98, 255, 67, 0.1), rgba(98, 255, 67, 0.1)),
+  url('src/assets/statsClassroom.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  height: 70vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.banner {
+    background-color: white;
+    width: auto;
+    height: 30%;
+    display: flex;
+    border-top-right-radius: 4rem;
+    gap: 2rem;
+    margin-bottom: 4%;
+    margin-left: 6%;
+    padding-right: 2rem;
+}
+
+.bar {
+    background-color: green;
+    width: 1rem;
+}
+
+.banner h3 {
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 5rem;
+}
+
+.stats1 {
+  background-image:
+  linear-gradient(to bottom, rgba(255, 208, 67, 0.2), rgba(255, 208, 67, 0.2)),
+  url('src/assets/classroom.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  height: 70vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.banner1 {
+    background-color: white;
+    width: auto;
+    height: 30%;
+    display: flex;
+    border-top-right-radius: 4rem;
+    gap: 2rem;
+    margin-bottom: 4%;
+    margin-left: 6%;
+    padding-right: 2rem;
+}
+
+.bar1 {
+    background-color: orange;
+    width: 1rem;
+}
+
+.banner1 h3 {
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 5rem;
+}
+
+.stats2 {
+  background-image:
+  linear-gradient(to bottom, rgba(249, 67, 255, 0.2), rgba(249, 67, 255, 0.2)),
+  url('src/assets/graduation.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  height: 70vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.banner2 {
+    background-color: white;
+    width: auto;
+    height: 30%;
+    display: flex;
+    border-top-right-radius: 4rem;
+    gap: 2rem;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    padding-right: 2rem;
+}
+
+.bar2 {
+    background-color: pink;
+    width: 1rem;
+}
+
+.banner2 h3 {
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 5rem;
+}

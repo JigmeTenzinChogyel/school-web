@@ -1,0 +1,53 @@
+.features {
+    margin-top: 8em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features h2 {
+    font-size: 4.5em;
+    margin-bottom: 2rem;
+}
+
+.features h4 {
+    font-size: 2em;
+    font-weight: normal;
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+.items {
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows with automatic sizing */
+    grid-template-columns: 1fr 1fr; /* Two columns with equal fraction units */
+    gap: 20px; /* Gap between grid items */
+}
+  
+.feature-item {
+    padding: 3rem;
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+}
+
+.feature-item img {
+    width: 100px;
+    height: auto;
+}
+
+.feature-item .details {
+    margin-left: 2rem;
+}
+
+.feature-item .details h3{
+    font-size: 1.8em;
+    margin-bottom: 1.2rem;
+}
+
+.feature-item .details span{
+    font-size: 1.4em;
+    line-height: 2rem;
+}

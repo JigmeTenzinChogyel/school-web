@@ -1,0 +1,17 @@
+.quote {
+    background-color: #115c1c;
+    text-align: center;
+    padding: 8em 7em;
+}
+
+.quote img {
+    width: 15%;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.quote h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 4.2em;
+}

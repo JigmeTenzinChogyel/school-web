@@ -1,0 +1,51 @@
+.directions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+    margin-bottom: 10em;
+}
+
+.directions h2 {
+    font-size: 4em;
+    margin-bottom: 1.4rem;
+}
+
+.directions h4 {
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+    width: 60%;
+    line-height: 3rem;
+    margin-bottom: 2em;
+}
+
+.items {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows with automatic sizing */
+    grid-template-columns: 1fr 1fr; /* Two columns with equal fraction units */
+    gap: 3rem; /* Gap between grid items */
+    margin: 3rem 6.2rem;
+
+  }
+
+.directions-items {
+    padding-bottom: 2rem;
+    border-bottom: 1px rgba(197, 197, 197, 0.63) solid;
+}
+
+.directions-items img {
+    width: 100%;
+    height: auto;
+}
+
+.directions-items h3 {
+    font-size: 2.5em;
+    margin: 2rem 0px;
+}
+
+.directions-items h5 {
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 2rem;
+}

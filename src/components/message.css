@@ -1,0 +1,42 @@
+.message {
+  margin-top: 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principal {
+    width: 15%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.message h1 {
+    margin-top: 3rem;
+    margin-bottom: 5.5rem;
+    font-size:3.5em;
+    width: 65%;
+}
+
+.message h3 {
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.message h4 {
+    font-size: 1.7em;
+    font-weight: 100;
+    width: 63%;
+    margin: 3rem 0px;
+}
+
+.message h2 {
+    font-size: 1.5em;
+    margin-top: 3px;
+}
+
+.signature {
+    margin-top: 2em;
+    width: 20%;
+}
