@@ -1,6 +1,7 @@
 .teachers {
     padding: 8em 6em;
-    background-color: rgba(215, 215, 215, 0.463);
+    background-color: white;
+    color: black;
 }
 .teachers h1 {
     font-size: 3.5em;

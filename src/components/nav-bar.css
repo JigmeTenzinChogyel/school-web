@@ -3,11 +3,12 @@
   justify-content: space-around;
   align-items: center;
   background-color: #115c1c;
-  padding: 10px 0px;
+  padding: 5px 0px;
   position: fixed;
   width: 100vw;
   background-color: transparent;
   transition: background-color 0.3s ease;
+  z-index: 10;
 }
 
 .logo {
@@ -22,11 +23,12 @@
   gap: 30px;
 }
 
-.navLinks li {
+.navLinks li a {
   font-size: x-large;
-  color: white;
   cursor: pointer;
   padding-bottom: 5px;
+  color: white;
+  font-size: medium;
 }
 
 .navLinks li:hover {
@@ -35,7 +37,7 @@
 
 .navbarBtn {
   background-color: #262424;
-  font-size: larger;
+  font-size: large;
   color: white;
   border: none;
   padding: 14px 25px;

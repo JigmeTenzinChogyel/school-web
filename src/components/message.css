@@ -1,9 +1,11 @@
 .message {
-  margin-top: 15%;
+  padding: 7% 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: black;
+  background-color: white;
 }
 
 .principal {
@@ -13,30 +15,30 @@
 }
 
 .message h1 {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 5.5rem;
-    font-size:3.5em;
+    font-size: xx-large;
     width: 65%;
 }
 
 .message h3 {
-    font-size: 2.5em;
+    font-size: x-large;
     font-weight: 100;
 }
 
 .message h4 {
-    font-size: 1.7em;
+    font-size: medium;
     font-weight: 100;
     width: 63%;
-    margin: 3rem 0px;
+    margin: 1rem 0px;
 }
 
 .message h2 {
-    font-size: 1.5em;
+    font-size: x-large;
     margin-top: 3px;
 }
 
 .signature {
-    margin-top: 2em;
+    margin-top: 1em;
     width: 20%;
 }

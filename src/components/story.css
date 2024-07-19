@@ -1,11 +1,11 @@
 .classroom {
     display: flex;
-    margin-top: 15em;
 }
 
 .classroomText {
     padding: 6.5rem 4rem;
     background-color: rgb(237, 229, 212);
+    color: black;
 }
 
 .classroomText h1{
@@ -29,6 +29,8 @@
     text-decoration: underline;
     font-weight: bold;
     cursor: pointer;
+    color: black;
+
 }
 
 .classroom button:hover {
@@ -42,6 +44,7 @@
 
 .graduation {
     display: flex;
+    background-color: white;
 }
 
 .graduation img {
@@ -50,6 +53,7 @@
 }
 
 .graduationText {
+    color: black;
     padding: 6.5rem 6rem;
 }
 

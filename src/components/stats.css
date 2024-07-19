@@ -1,7 +1,7 @@
 .stats {
   background-image:
   linear-gradient(to bottom, rgba(98, 255, 67, 0.1), rgba(98, 255, 67, 0.1)),
-  url('src/assets/statsClassroom.jpg');
+  url('../assets/statsClassroom.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  color: black;
 }
 
 .banner {
@@ -39,7 +40,7 @@
 .stats1 {
   background-image:
   linear-gradient(to bottom, rgba(255, 208, 67, 0.2), rgba(255, 208, 67, 0.2)),
-  url('src/assets/classroom.jpg');
+  url('../assets/classroom.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -49,6 +50,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  color: black;
 }
 .banner1 {
     background-color: white;
@@ -76,7 +78,7 @@
 .stats2 {
   background-image:
   linear-gradient(to bottom, rgba(249, 67, 255, 0.2), rgba(249, 67, 255, 0.2)),
-  url('src/assets/graduation.jpg');
+  url('../assets/graduation.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -86,6 +88,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  color: black;
 }
 
 .banner2 {
